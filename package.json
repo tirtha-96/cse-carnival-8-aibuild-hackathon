@@ -9,6 +9,7 @@
     "seed": "node scripts/seed.js",
     "db:inspect": "node scripts/inspect-db.js",
     "test": "node --test tests/integration.test.js",
+    "test:live": "node scripts/test-live-agent.js",
     "check": "node --check server.js && node --check lib/store.js && node --check lib/agent.js && node --check public/app.js"
   },
   "dependencies": {
